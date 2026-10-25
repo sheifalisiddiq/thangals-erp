@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+@import './styles/tokens.css';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+
+  --color-brand-emerald-deep: var(--brand-emerald-deep);
+  --color-brand-emerald: var(--brand-emerald);
+  --color-brand-gold: var(--brand-gold);
+  --color-ivory: var(--ivory);
+  --color-surface: var(--surface);
+  --color-charcoal: var(--charcoal);
+  --color-slate-green: var(--slate-green);
+  --color-border-soft: var(--border-soft);
+  --color-nav-selected: var(--nav-selected);
+
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-error: var(--error);
+  --color-error-bg: var(--error-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+
+  --radius-card: 10px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: var(--nav-selected);
+  color: var(--brand-emerald-deep);
+}
+
+* {
+  box-sizing: border-box;
+}

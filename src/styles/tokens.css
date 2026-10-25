@@ -1,0 +1,22 @@
+:root {
+  --brand-emerald-deep: #00483b;
+  --brand-emerald: #006653;
+  --brand-gold: #c5a16d;
+  --ivory: #f7f8f5;
+  --surface: #ffffff;
+  --charcoal: #182824;
+  --slate-green: #64736d;
+  --border-soft: #dfe6e1;
+  --nav-selected: #e7f2ec;
+
+  --success: #1a7f4e;
+  --success-bg: #e7f6ee;
+  --warning: #9a6400;
+  --warning-bg: #fdf1dc;
+  --error: #b3261e;
+  --error-bg: #fbe9e8;
+  --info: #1d5fae;
+  --info-bg: #e8f0fb;
+
+  --radius-card: 10px;
+}
